@@ -1,24 +1,25 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background-color: oklch(5% 0 0);
-}
+
 .section {
-  background-color: aqua;
+  background-color: aquamarine;
   padding: 1rem;
-  border: 1px solid;
+  border: 1px solid #000;
 }
+
 .container {
-  max-width: 80rem;
-  padding: 1px;
+  background-color: bisque;
+  max-width: 50rem;
   margin-inline: auto;
-  background-color: oklch(20% 0 0);
-}
-.children {
-  border: 1px solid;
   padding: 1rem;
 }
+
+.children {
+  border: 0.0625rem solid #f00;
+  padding: 1rem;
+}
+
 .flex {
   display: flex;
 }
